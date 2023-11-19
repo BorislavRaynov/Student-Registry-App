@@ -20,4 +20,6 @@ jobs:
         cache: 'npm'
     - name: Build app
       run: npm install
+    - name: Run Intergration test
+      run: npm test
     
